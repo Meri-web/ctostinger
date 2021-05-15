@@ -8,4 +8,11 @@ $(document).ready(function(){
         loop: true,
         dots: true
     });
+    $('.mobile-menu-bar').on('click', function () {
+        $('.mobile-menu-content').addClass('open')
+    });
+    $('.close-menu').on('click', function () {
+        $('.mobile-menu-content').removeClass('open')
+    })
+
 });

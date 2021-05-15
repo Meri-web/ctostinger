@@ -38,12 +38,18 @@ body{
 .header-panel li a{
     color: #fff;
 }
+.logo{
+    max-width: 300px;
+    width: 100%;
+    padding-right: 50px;
+}
 .slider-content{
     position: relative;
     z-index: 2;
-    max-width: 700px;
+    max-width: 750px;
     margin: 0 auto;
     min-height: 200px;
+    padding: 0 25px;
 }
 .slider-content h2{
     color: #fff;
@@ -54,4 +60,16 @@ body{
     padding: 10px;
     font-size: 16px;
     text-decoration: none;
+    display: inline-block;
+}
+.mobile-menu{
+    display: none;
+    font-size: 30px;
+}
+.close-menu{
+    display: none;
+    font-size: 25px;
+    position: absolute;
+    top: 5px;
+    right: 18px;
 }
