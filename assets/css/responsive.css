@@ -44,7 +44,7 @@
 }
 @media only screen and (max-width: 600px) {
     .slider-content h2{
-        font-size: 30px;
+        font-size: 22px;
     }
     .slider-content {
         min-height: 120px;

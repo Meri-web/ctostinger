@@ -10,7 +10,13 @@ body{
     background-position: center;
     position: relative;
 }
-.home-carousel-item:after{
+.home-carousel .owl-dots{
+    position: relative;
+    margin-top: -45px!important;
+    z-index: 44444;
+    margin-bottom: 20px;
+}
+.home-carousel-item:after,.top-banner:after{
     content: " ";
     position: absolute;
     left: 0;
@@ -18,10 +24,17 @@ body{
     top: 0;
     bottom: 0;
     background-color: #011b55;
-    opacity: 0.3;
+    opacity: 0.35;
 }
-.home-carousel  {
+.home-carousel,.banner-content  {
     position: relative;
+}
+.banner-content {
+    z-index: 3;
+    color: #fff;
+}
+.banner-content h2{
+    font-size: 40px;
 }
 .page-header{
     padding: 15px 0;
@@ -39,9 +52,10 @@ body{
     color: #fff;
 }
 .logo{
-    max-width: 300px;
+    max-width: 350px;
     width: 100%;
     padding-right: 50px;
+    height: 31px;
 }
 .slider-content{
     position: relative;
@@ -72,4 +86,55 @@ body{
     position: absolute;
     top: 5px;
     right: 18px;
+}
+footer{
+    background: #001134;
+    padding: 20px 0;
+    color: #fff;
+}
+iframe{
+    vertical-align: top;
+}
+.center-content{
+    padding: 50px 0;
+}
+.copyright-box{
+    padding-top: 20px;
+    margin-top: 20px;
+    border-top: 1px solid rgba(255, 255, 255, 0.15);
+}
+.social-icons li span {
+    display: inline-block;
+    font-size: 20px;
+    color: #fff;
+    background-color: rgba(255, 255, 255, 0.5);
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    padding: 5px;
+    border-radius: 50%;
+    margin: 5px 10px;
+    -webkit-transition: all .3s ease-out;
+    -moz-transition: all .3s ease-out;
+    -ms-transition: all .3s ease-out;
+    -o-transition: all .3s ease-out;
+    transition: all .3s ease-out;
+
+}
+.social-icons li span:hover{
+    background-color: rgba(255, 255, 255, 0.6);
+    -webkit-transition: all .3s ease-out;
+    -moz-transition: all .3s ease-out;
+    -ms-transition: all .3s ease-out;
+    -o-transition: all .3s ease-out;
+    transition: all .3s ease-out;
+}
+.contact-banner{
+    background-image: url("../images/contact.jpg");
+}
+.top-banner{
+    padding: 12% 0;
+    background-size: cover;
+    background-position: center;
+    position: relative;
 }
