@@ -45,8 +45,11 @@ body{
     padding: 8px 0;
 }
 .header-panel li a{
-    padding-left: 15px;
+
     text-decoration: none;
+}
+.header-panel li{
+    padding-left: 15px;
 }
 .header-panel li a{
     color: #fff;
