@@ -179,3 +179,78 @@ iframe{
     font-size: 16px;
     text-decoration: none;
 }
+.service-bg{
+    padding-top: 50%;
+    background-size: cover;
+}
+.service1{
+     background: url("../images/service1.jpg") center no-repeat;
+    background-size: cover;
+ }
+.service2{
+    background: url("../images/service2.jpeg") center no-repeat;
+    background-size: cover;
+}
+.service3{
+    background: url("../images/service3.jpg") center no-repeat;
+    background-size: cover;
+}
+.service4{
+    background: url("../images/service4.jpg") center no-repeat;
+    background-size: cover;
+}
+.service5{
+    background: url("../images/service5.jpg") center no-repeat;
+    background-size: cover;
+}
+.service6{
+    background: url("../images/service6.jpg") center no-repeat;
+    background-size: cover;
+}
+.service-block{
+    -webkit-box-shadow: rgb(226 235 255) 1px 1px 31px 0;
+    -moz-box-shadow: rgb(226 235 255) 1px 1px 31px 0;
+    box-shadow: rgb(226 235 255) 1px 1px 31px 0;
+    background: #fff;
+    padding: 15px 15px 20px 15px;
+    height: 100%;
+}
+.service-text{
+    margin-top: 15px;
+}
+.service-text h3{
+    font-size: 20px;
+    color: #01246c;
+}
+.blue-line{
+    position: relative;
+}
+.blue-line:after{
+    content: " ";
+    position: absolute;
+    bottom: -10px;
+    height: 4px;
+    width: 70px;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    transform: translateX(-50%);
+    background: rgb(229, 32, 21);
+    border-radius: 5px;
+}
+.button-custom{
+    background: #023cb2;
+    color: #fff;
+    display: table;
+    padding: 15px 25px;
+    font-size: 16px;
+    text-align: center;
+    margin: 0 auto;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    border-radius: 30px;
+    text-decoration: none;
+
+}
