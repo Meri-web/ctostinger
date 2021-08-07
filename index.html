@@ -175,5 +175,18 @@
 <script src="assets/js/owl.carousel.min.js"></script>
 <script src="assets/js/bootstrap.min.js"></script>
 <script src="assets/js/custom.js"></script>
+<script>
+    $(document).ready(function(){
+        $(".home-carousel").owlCarousel({
+            items:1,
+            animateOut: 'fadeOut',
+            autoplay:true,
+            autoplayTimeout:5000,
+            autoplayHoverPause:true,
+            loop: true,
+            dots: true
+        });
+    });
+</script>
 </body>
 </html>
