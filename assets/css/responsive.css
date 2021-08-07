@@ -49,4 +49,8 @@
     .slider-content {
         min-height: 120px;
     }
+    .whatsapp{
+        bottom: 30px;
+        right: 30px;
+    }
 }
