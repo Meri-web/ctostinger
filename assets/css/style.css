@@ -254,12 +254,26 @@ iframe{
     text-decoration: none;
 
 }
-.whatsapp{
+.fixed-icons{
     position: fixed;
     bottom: 35px;
     right: 35px;
     z-index: 10;
+
+}
+.fixed-icons .whatsapp{
     display: inline-block;
     padding: 5px;
     background: #00e676;
+}
+.fixed-icons a{
+    margin: 0 5px;
+}
+.call-phone{
+    display: inline-block;
+    padding: 12px;
+    background: #01246c;
+}
+.call-phone img{
+    width: 25px;
 }
