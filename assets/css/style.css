@@ -254,3 +254,12 @@ iframe{
     text-decoration: none;
 
 }
+.whatsapp{
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+    z-index: 10;
+    display: inline-block;
+    padding: 5px;
+    background: #00e676;
+}
